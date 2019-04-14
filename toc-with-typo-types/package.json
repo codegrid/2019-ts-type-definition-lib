@@ -1,0 +1,18 @@
+{
+  "name": "toc-cjs-type-esm",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "webpack --config webpack.config.js",
+    "dev": "http-server"
+  },
+  "devDependencies": {
+    "http-server": "0.11.1",
+    "ts-loader": "5.3.2",
+    "typescript": "3.2.2",
+    "webpack": "4.28.2",
+    "webpack-cli": "3.1.2"
+  }
+}
